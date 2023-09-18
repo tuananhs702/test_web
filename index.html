@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý thành viên</title>
+    <!-- Bao gồm tệp CSS của Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+
+</head>
+<style>
+    *{
+        color: rgb(0, 0, 0);
+    }
+    h5{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+        color: rgb(0, 0, 0); /* Màu của văn bản */
+    }
+    #btn-ig{
+        background-color: white;        
+        color: black;     
+        border: none; /* Loại bỏ viền */
+        border-radius: 10px;
+    }
+    #btn-zalo{
+        background-color: white;        
+        /* background: linear-gradient(45deg, #0586f7, #ffffff); /* Gradient màu */
+        color: black;     
+         /* Loại bỏ viền */
+        border-radius: 10px;
+    }
+    #btn-fb, #btn-yt, #btn-sdt{
+        border-radius: 10px;
+        background-color: white;   
+        color: black;     
+    }
+    a{
+        margin-top: 10px;
+        width: 100%;
+    }
+</style>
+<body>
+<div id="particles-js"></div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="">
+                <header>
+                    <img id="anh" src="./static/img/logo.jpg" class="card-img-top" alt="Ảnh đại diện của bạn">
+                </header>
+                <div class="card-body">
+                    <h5 class="card-title">Tên nhóm</h5>
+                    <p class="card-text">Mô tả Nhóm:</p>
+                    <p>Viết mô tả về nhóm ở đây.</p>
+                    <center>
+                        <a href="./user/user1.html" class="btn btn-success mr-2" id="btn-fb">User1</a> <br>
+                        <a href="./user/user2.html" class="btn btn-success mr-2" id="btn-zalo">User2</a> <br>
+                        <a href="./user/user3.html" class="btn btn-success" id="btn-ig">User3</a> <br>
+                        <a href="./user/user4.html" class="btn btn-success" id="btn-yt">User4</a>
+                        <a href="./user/user5.html" class="btn btn-success" id="btn-sdt">User5</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./static/js/particles.js"></script>
+<script src="./static/js/app.js"></script>
+<!-- Bao gồm các tệp JavaScript của Bootstrap và jQuery (tùy chọn) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
